@@ -21,4 +21,4 @@ jobs:
       - run: npm ci
       - run: npx vercel pull --yes --environment=production --project daniildev --token="${{ secrets.VERCEL_TOKEN }}"
       - run: npx vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
-      - run: npx vercel deploy --prebuilt --prod --yes --project daniildev --token="${{ secrets.VERCEL_TOKEN }}"
+      - run: npx vercel deploy --prebuilt --prod --yes --force --project daniildev --token="${{ secrets.VERCEL_TOKEN }}"
