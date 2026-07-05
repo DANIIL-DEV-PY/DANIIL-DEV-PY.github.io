@@ -110,11 +110,11 @@ const en: Dictionary = {
     demoLabel: "View demo",
     projects: [
       {
-        title: "Beauty Store",
+        title: "Nullpoint",
         description:
-          "A cosmetics e-commerce demo: catalog with category/brand/price/stock filters, search, cart with promo codes and free shipping, wishlist, checkout flow, dark theme.",
+          "Landing page for a fictional wearable body-thermostat gadget: canvas particles and gradient backgrounds, a sticky step stack with 3D icons, a floating pill header and line-by-line scroll reveals.",
         tags: ["HTML", "CSS", "JavaScript"],
-        href: "/projects/beauty-store/",
+        href: "/projects/nullpoint/",
       },
       {
         title: "Kholod Service",
@@ -122,6 +122,13 @@ const en: Dictionary = {
           "Site for a fridge & appliance repair technician: services list with pricing, a dedicated page per service, a contact form, sticky-stacking service cards and scroll animations.",
         tags: ["HTML", "CSS", "JavaScript"],
         href: "/projects/holod-remont/",
+      },
+      {
+        title: "Beauty Store",
+        description:
+          "A cosmetics e-commerce demo: catalog with category/brand/price/stock filters, search, cart with promo codes and free shipping, wishlist, checkout flow, dark theme.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        href: "/projects/beauty-store/",
       },
     ],
   },
