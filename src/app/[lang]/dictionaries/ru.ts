@@ -106,7 +106,7 @@ const ru: Dictionary = {
     placeholderTitle: "В разработке",
     placeholderText:
       "Здесь скоро появятся другие проекты. Свяжитесь со мной, чтобы обсудить вашу задачу уже сейчас.",
-    cardCount: 1,
+    cardCount: 0,
     demoLabel: "Смотреть демо",
     projects: [
       {
@@ -129,6 +129,13 @@ const ru: Dictionary = {
           "Интернет-магазин косметики: каталог с фильтрами по категориям, бренду, цене и наличию, поиск, корзина с промокодом и бесплатной доставкой, избранное, оформление заказа, тёмная тема.",
         tags: ["HTML", "CSS", "JavaScript"],
         href: "/projects/beauty-store/",
+      },
+      {
+        title: "Orbit",
+        description:
+          "Тёмный лендинг в стиле GoodDollar: hero с орбитальными кольцами и плавающей карточкой баланса, анимированная count-up статистика, бесшовная бегущая строка, магнитные кнопки, отзывы и FAQ-аккордеон.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        href: "https://daniil-dev-py.github.io/orbit-landing/",
       },
     ],
   },

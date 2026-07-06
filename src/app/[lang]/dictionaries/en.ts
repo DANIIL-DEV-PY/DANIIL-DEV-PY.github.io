@@ -106,7 +106,7 @@ const en: Dictionary = {
     placeholderTitle: "In progress",
     placeholderText:
       "More projects will show up here soon. Reach out to discuss your task right now.",
-    cardCount: 1,
+    cardCount: 0,
     demoLabel: "View demo",
     projects: [
       {
@@ -129,6 +129,13 @@ const en: Dictionary = {
           "A cosmetics e-commerce demo: catalog with category/brand/price/stock filters, search, cart with promo codes and free shipping, wishlist, checkout flow, dark theme.",
         tags: ["HTML", "CSS", "JavaScript"],
         href: "/projects/beauty-store/",
+      },
+      {
+        title: "Orbit",
+        description:
+          "A GoodDollar-inspired dark landing page: orbit-ring hero visual with a floating balance card, animated count-up stats, a seamless marquee ticker, magnetic buttons, testimonials and an FAQ accordion.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        href: "https://daniil-dev-py.github.io/orbit-landing/",
       },
     ],
   },
