@@ -46,6 +46,7 @@ export default async function LangLayout({
     >
       <body className="min-h-full bg-void text-ink antialiased">
         {children}
+        <script src="/track.js" defer />
       </body>
     </html>
   );
