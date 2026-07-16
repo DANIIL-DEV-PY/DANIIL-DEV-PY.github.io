@@ -131,6 +131,13 @@ const en: Dictionary = {
         href: "/projects/beauty-store/",
       },
       {
+        title: "NOVA THREAD",
+        description:
+          "A futuristic clothing e-commerce demo: catalog filters by size, color and category, sorting, cart, checkout modal, local product imagery, and curated outfit sets.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        href: "/projects/future-fashion-store/",
+      },
+      {
         title: "Orbit",
         description:
           "A GoodDollar-inspired dark landing page: orbit-ring hero visual with a floating balance card, animated count-up stats, a seamless marquee ticker, magnetic buttons, testimonials and an FAQ accordion.",
